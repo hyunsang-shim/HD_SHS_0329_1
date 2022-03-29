@@ -6,7 +6,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int i = 3; i <= 9; i+=3)
+            {
+                for(int j = 1; j<=9; j++)
+                {
+                    Console.WriteLine($"{i} * {j} = {i * j}");
+                }
+                Console.WriteLine("");
+            }
         }
     }
 }
